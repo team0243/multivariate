@@ -12,7 +12,7 @@ Github คือ แหล่งรวมไฟล์ของการเขี
 ## Google colab
 Google colab เป็นโปรเจ็คที่พัฒนาโดยทีม Google Research ที่เปิดให้นักศึกษาและคนทั่วไปที่อยากเริ่มเขียนโค้ด Python ใช้งานได้ฟรีผ่าน Google Chrome Browser
 
-## การไฟล์จาก gogle colab ลงใน git hub
+## การเพิ่มไฟล์จาก gogle colab ลงใน git hub
 คลิกไปที่ 1.File 2.บันทึกสำเนาใน github 3.ตั้งชื่อไฟล์ 4. ใส่ comment 5.เสร็จสิ้น
 
- ![Logo kku](Logo kku.png)
+ ![แบบ2](แบบ2.่jpg)
