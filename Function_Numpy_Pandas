@@ -5,7 +5,10 @@
     "colab": {
       "name": "Untitled2.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyMkAl43aClYYRfHWp7tX7W3",
+      "collapsed_sections": [
+        "3ErhAdHgEb1q"
+      ],
+      "authorship_tag": "ABX9TyOnK8cRqpETDwT/2z6xjv1s",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -45,7 +48,12 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "B4JM4uPqTK0n"
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        },
+        "id": "B4JM4uPqTK0n",
+        "outputId": "42669663-90b4-4963-a1f3-cdd095eac8fb"
       },
       "source": [
         "def function_name(_Input_) :\r\n",
@@ -53,7 +61,16 @@
         "  return  _Output_"
       ],
       "execution_count": null,
-      "outputs": []
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-30-f13137abb281>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    do_something with  _input_ to produce  _Output_\u001b[0m\n\u001b[0m                    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -90,7 +107,7 @@
         "  st = f'ชื่อ {name} นามสกุล {surename} ID {ID}'\r\n",
         "  return st"
       ],
-      "execution_count": 2,
+      "execution_count": null,
       "outputs": []
     },
     {
@@ -115,7 +132,7 @@
       "source": [
         "print_name('เกียรติศักดิ์ ','แสนจันทร์', '623021041-7')"
       ],
-      "execution_count": 11,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -147,7 +164,7 @@
         "output_string = print_name('เกียรติศักดิ์ ','แสนจันทร์', '623021041-7')\r\n",
         "print(output_string)"
       ],
-      "execution_count": 12,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -188,7 +205,7 @@
         "  st = f'ชื่อ {name} นามสกุล {surename} ID {ID}'\r\n",
         "  return st"
       ],
-      "execution_count": 14,
+      "execution_count": 19,
       "outputs": []
     },
     {
@@ -199,12 +216,12 @@
           "height": 34
         },
         "id": "AR_zBC0wYAzL",
-        "outputId": "a522774b-346a-47a7-925b-b3558203173a"
+        "outputId": "f19ca4e2-8b4f-494b-fe09-024e0cb0ad4d"
       },
       "source": [
         "print_name2('เกียรติศักดิ์ ','แสนจันทร์', '623021041-7')"
       ],
-      "execution_count": 16,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -219,7 +236,7 @@
           "metadata": {
             "tags": []
           },
-          "execution_count": 16
+          "execution_count": 20
         }
       ]
     },
@@ -231,7 +248,7 @@
       "source": [
         "op2= print_name2('เกียรติศักดิ์ ','แสนจันทร์', '623021041-7')\r\n"
       ],
-      "execution_count": 22,
+      "execution_count": 21,
       "outputs": []
     },
     {
@@ -241,12 +258,12 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "9_tMBbwGZMZr",
-        "outputId": "4176992d-af1c-45fe-d776-5515b238ee07"
+        "outputId": "4c21b4f8-2566-4b50-89cb-d9728818ed89"
       },
       "source": [
         "print(op2)"
       ],
-      "execution_count": 23,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
@@ -275,20 +292,37 @@
         "def Pi() :\r\n",
         "    return 3.141592"
       ],
-      "execution_count": 27,
+      "execution_count": 3,
       "outputs": []
     },
     {
       "cell_type": "code",
       "metadata": {
-        "id": "NUPmg5WOZiM6"
+        "id": "NUPmg5WOZiM6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c857bd59-bd72-409f-992e-4c7b6b218afa"
       },
       "source": [
         "#คำนวณพื้นที่วงกลมที่มีขนาดเส้นผ่านศูนย์กลางเท่ากับ 3\r\n",
-        "Pi()*"
+        "Pi()*(1.2*2)"
       ],
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "7.5398208"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 4
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -297,6 +331,266 @@
       },
       "source": [
         ""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "5E6FwLtuBKUf"
+      },
+      "source": [
+        "#input ของ funtion ใน python มีสองแบบ input ที่จำเป็นต้องใส่ กับ input ที่ไม่จำเป็นต้องใส่ (มีค่า default) เราต้องเรียง input ที่จำเป็นต้องใส่ขึ้นก่อน"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Dfxv56btBN-c"
+      },
+      "source": [
+        "def print_default(name, surname, ID, grade='A+'):\r\n",
+        "   st= f'ชื่อ  {name} นามสกุล {surname} ID {ID}'\r\n",
+        "   print(st)\r\n",
+        "   st2= f'เกรด >>>>> {grade}'\r\n",
+        "   print(st2)"
+      ],
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2cTJ7Pk4BcP9",
+        "outputId": "6b3d694d-3e9d-4733-c032-ed905af9224c"
+      },
+      "source": [
+        "print_default('เกียรติศักดิ์','แสนจันทร์','623021041-7')"
+      ],
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "ชื่อ  เกียรติศักดิ์ นามสกุล แสนจันทร์ ID 623021041-7\n",
+            "เกรด >>>>> A+\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IuQy0-JdBeMd"
+      },
+      "source": [
+        "def print_default(name, surname, ID, grade='F'):\r\n",
+        "   st= f'ชื่อ  {name} นามสกุล {surname} ID {ID}'\r\n",
+        "   print(st)\r\n",
+        "   st2= f'เกรด >>>>> {grade}'\r\n",
+        "   print(st2)"
+      ],
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aRwffXUzCAj7"
+      },
+      "source": [
+        "เราสามารถเรียก FN โดยใช้ชื่อตัวแปรของ FN ช่วยได้"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "88B8XjVKCrl6",
+        "outputId": "eeebe546-2d71-496a-e024-3950e150d641"
+      },
+      "source": [
+        "print_name2(name='เกียรติศักดิ์ ',surename='แสนจันทร์', ID='623021041-7')"
+      ],
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            },
+            "text/plain": [
+              "'ชื่อ เกียรติศักดิ์  นามสกุล แสนจันทร์ ID 623021041-7'"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3g-en4UHDFKO"
+      },
+      "source": [
+        "#การบ้าน HW3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IKJgZtb-DGOU"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3F5ELsXkDHKs"
+      },
+      "source": [
+        "ให้เขียน function คำนวณจำนวนวินาทีจาก เวลาต่อไปนี้\r\n",
+        "\r\n",
+        "'14-15-31'\r\n",
+        "\r\n",
+        "'13-00-01'\r\n",
+        "\r\n",
+        "'05-49-44'\r\n",
+        "\r\n",
+        "'00-00-16'\r\n",
+        "\r\n",
+        "และ print ให้สวยงาม"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "aaaYFgMuDLEd"
+      },
+      "source": [
+        "def time(t):\r\n",
+        "  j3=  int (t.split('-')[0])*3600\r\n",
+        "  k3= int (t.split('-')[1])*60\r\n",
+        "  n3 = int (t.split('-')[2])\r\n",
+        "  tt = j3+k3+n3\r\n",
+        "  print(\"แปลงเป็นวินาทีได้เท่ากับ\",tt,\" วินาที\")"
+      ],
+      "execution_count": 38,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Lg54qHjkD-06",
+        "outputId": "388df0cc-8b2c-4a81-fabf-c074907a263c"
+      },
+      "source": [
+        "time('14-15-31') "
+      ],
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "แปลงเป็นวินาทีได้เท่ากับ 51331  วินาที\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MvaWmZnQEV-S",
+        "outputId": "e4ad1f24-7818-45ba-85a0-f61fc2c9f21c"
+      },
+      "source": [
+        "time('13-00-01') "
+      ],
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "แปลงเป็นวินาทีได้เท่ากับ 46801  วินาที\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TbP1uW0-EYLi",
+        "outputId": "82f86912-a7e5-48a8-f2e5-8d10add63237"
+      },
+      "source": [
+        "time('05-49-44')"
+      ],
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "แปลงเป็นวินาทีได้เท่ากับ 20984  วินาที\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c80CAZHpEaOJ",
+        "outputId": "e2e4c53c-252a-433f-e96b-18fb20985de0"
+      },
+      "source": [
+        "time('00-00-16')  "
+      ],
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "แปลงเป็นวินาทีได้เท่ากับ 16  วินาที\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "3ErhAdHgEb1q"
+      },
+      "source": [
+        "END"
       ]
     }
   ]
